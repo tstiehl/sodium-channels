@@ -1,4 +1,4 @@
-# sodium-channel
+# sodium-channels
 Modified Hodgkin-Huxley model of CMi and A&delta; fiber accounting for the sodium channels Nav1.1-Nav1.3 and Nav1.5-Nav1.9.
 
 This is the Matlab code to: Sodium channels expressed in nociceptors contribute distinctly to action potential subthreshold phase, upstroke and shoulder 
