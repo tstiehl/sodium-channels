@@ -1,5 +1,5 @@
 # sodium-channel
-Modified Hodgkin-Huxley model of CMi and Adelta fiber accounting for the sodium channels Nav1.1-Nav1.3 and Nav1.5-Nav1.9.
+Modified Hodgkin-Huxley model of CMi and A&delta; fiber accounting for the sodium channels Nav1.1-Nav1.3 and Nav1.5-Nav1.9.
 
 This is the Matlab code to: Sodium channels expressed in nociceptors contribute distinctly to action potential subthreshold phase, upstroke and shoulder 
 by Phil Alexander Köster, Enrico Leipold, Jenny Tigerholm, Anna Maxion, Barbara Namer, Thomas Stiehl, Angelika Lampert.
@@ -16,16 +16,16 @@ by Phil Alexander Köster, Enrico Leipold, Jenny Tigerholm, Anna Maxion, Barbara
 - CMi_1_7_activation_shifted_0.m: Simulation of CMi fiber with different current injections. This script generates Fig. 11C.
 - CMi_1_7_activation_shifted_5.m: Simulation of CMi fiber where Nav1.7 activation is shifted by 5mV. This script generates Fig. 11D.
 - CMi_1_7_activation_shifted_8.m: Simulation of CMi fiber where Nav1.7 activation is shifted by 8mV. This script generates Fig 11E.
-### Scripts for Adelta filber
-- Ad_30.m: Simulation of Adelta fiber with a current injection of 30 uA/cm². This script generates Fig. 10B, Fig. 10C, upper left panel of Fig. 10A, SFig. 8C and SFig. 8D.
-- Ad_30_subtype_contribution.m: Simulation of Adelta fiber with current injection of 30uA/cm² and with individual Nav subtypes removed during action potential. 
-- Ad_40.m: Simulation of Adelta fiber with a current injection of 40 uA/cm². This script generates SFig. 5B, SFig. 5C, upper left panel of SFig. 5A.
-- Ad_40_subtype_contribution.m: Simulation of Adelta fiber with current injection of 40uA/cm² and with individual Nav subtypes removed during action potential. 
-- Ad_1_7_increased.m: Simulation of Adelta fiber with 5-fold increased expression of Nav1.7. This script generates Fig. 12A.
-- Ad_1_8_increased.m: Simulation of Adelta fiber with 8-fold increased expression of Nav1.8. This script generates Fig. 12B.
-- Ad_1_7_activation_shifted_0.m: Simulation of Adelta fiber with different current injections. This script generates Fig. 12C.
-- Ad_1_7_activation_shifted_5.m: Simulation of Adelta fiber where Nav1.7 activation is shifted by 5mV. This script generates Fig. 12D.
-- Ad_1_7_activation_shifted_8.m: Simulation of Adelta fiber where Nav1.7 activation is shifted by 8mV. This script generates Fig. 12E.
+### Scripts for A&delta; filber
+- Ad_30.m: Simulation of A&delta; fiber with a current injection of 30 uA/cm². This script generates Fig. 10B, Fig. 10C, upper left panel of Fig. 10A, SFig. 8C and SFig. 8D.
+- Ad_30_subtype_contribution.m: Simulation of A&delta; fiber with current injection of 30uA/cm² and with individual Nav subtypes removed during action potential. 
+- Ad_40.m: Simulation of A&delta; fiber with a current injection of 40 uA/cm². This script generates SFig. 5B, SFig. 5C, upper left panel of SFig. 5A.
+- Ad_40_subtype_contribution.m: Simulation of A&delta; fiber with current injection of 40uA/cm² and with individual Nav subtypes removed during action potential. 
+- Ad_1_7_increased.m: Simulation of A&delta; fiber with 5-fold increased expression of Nav1.7. This script generates Fig. 12A.
+- Ad_1_8_increased.m: Simulation of A&delta; fiber with 8-fold increased expression of Nav1.8. This script generates Fig. 12B.
+- Ad_1_7_activation_shifted_0.m: Simulation of A&delta; fiber with different current injections. This script generates Fig. 12C.
+- Ad_1_7_activation_shifted_5.m: Simulation of A&delta; fiber where Nav1.7 activation is shifted by 5mV. This script generates Fig. 12D.
+- Ad_1_7_activation_shifted_8.m: Simulation of A&delta; fiber where Nav1.7 activation is shifted by 8mV. This script generates Fig. 12E.
 
 
 ## FILES CONTAINING FUNCTIONS
@@ -55,11 +55,11 @@ by Phil Alexander Köster, Enrico Leipold, Jenny Tigerholm, Anna Maxion, Barbara
 - IC_CMi_1_8.mat: resting state of CMi fiber with 11-fold increased Nav1.8 expression 
 - IC_CMi_shift_1_7_5.mat: resting state of CMi fiber, where Nav1.7 activation is shifted by 5mV
 - IC_CMi_shift_1_7_8.mat: resting state of CMi fiber, where Nav1.7 activation is shifted by 8mV
-- IC_Ad.mat: resting state of Adelta fiber
-- IC_Ad_1_7.mat: resting state of Adelta fiber with 5-fold increased Nav1.7 expression 
-- IC_Ad_1_8.mat: resting state of Adelta fiber with 8-fold increased Nav1.8 expression 
-- IC_Ad_shift_1_7_5.mat: resting state of Adelta fiber, where Nav1.7 activation is shifted by 5mV
-- IC_Ad_shift_1_7_8.mat: resting state of Adelta fiber, where Nav1.7 activation is shifted by 8mV
+- IC_Ad.mat: resting state of A&delta; fiber
+- IC_Ad_1_7.mat: resting state of A&delta; fiber with 5-fold increased Nav1.7 expression 
+- IC_Ad_1_8.mat: resting state of A&delta; fiber with 8-fold increased Nav1.8 expression 
+- IC_Ad_shift_1_7_5.mat: resting state of A&delta; fiber, where Nav1.7 activation is shifted by 5mV
+- IC_Ad_shift_1_7_8.mat: resting state of A&delta; fiber, where Nav1.7 activation is shifted by 8mV
 
 
 ## OUTPUT
