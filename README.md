@@ -1,5 +1,5 @@
 # sodium-channels
-Modified Hodgkin-Huxley model of CMi and A&delta; fiber accounting for the sodium channels Nav1.1-Nav1.3 and Nav1.5-Nav1.9.
+Modified Hodgkin-Huxley model of the nociceptor sensory neuron subtypes CMi and A&delta; from the dorsal root ganglion (DRG) accounting for the sodium channels Nav1.1-Nav1.3 and Nav1.5-Nav1.9. 
 
 This is the Matlab code to: Sodium channels expressed in nociceptors contribute distinctly to action potential subthreshold phase, upstroke and shoulder 
 by Phil Alexander Köster, Enrico Leipold, Jenny Tigerholm, Anna Maxion, Barbara Namer, Thomas Stiehl, Angelika Lampert.
